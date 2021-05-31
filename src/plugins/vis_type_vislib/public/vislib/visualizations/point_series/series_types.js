@@ -8,12 +8,14 @@
 
 import { ColumnChart } from './column_chart';
 import { LineChart } from './line_chart';
+import { PercentileChart } from './percentile_chart';
 import { AreaChart } from './area_chart';
 import { HeatmapChart } from './heatmap_chart';
 
 export const seriesTypes = {
   histogram: ColumnChart,
   line: LineChart,
+  percentile: PercentileChart,
   area: AreaChart,
   heatmap: HeatmapChart,
 };

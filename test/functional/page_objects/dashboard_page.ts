@@ -9,6 +9,7 @@
 export const PIE_CHART_VIS_NAME = 'Visualization PieChart';
 export const AREA_CHART_VIS_NAME = 'Visualization漢字 AreaChart';
 export const LINE_CHART_VIS_NAME = 'Visualization漢字 LineChart';
+export const PERCENTILE_CHART_VIS_NAME = 'Visualization漢字 PercentileChart';
 import { FtrProviderContext } from '../ftr_provider_context';
 
 export function DashboardPageProvider({ getService, getPageObjects }: FtrProviderContext) {
@@ -520,6 +521,7 @@ export function DashboardPageProvider({ getService, getPageObjects }: FtrProvide
         { name: AREA_CHART_VIS_NAME, description: 'AreaChart' },
         { name: 'Visualization☺漢字 DataTable', description: 'DataTable' },
         { name: LINE_CHART_VIS_NAME, description: 'LineChart' },
+        { name: PERCENTILE_CHART_VIS_NAME, description: 'PercentileChart' },
         { name: 'Visualization TileMap', description: 'TileMap' },
         { name: 'Visualization MetricChart', description: 'MetricChart' },
       ];

@@ -1,0 +1,4 @@
+puppeteer_skip_chromium_download=true
+http_proxy=https://emea-chain.proxy.att.com:8080
+https_proxy=https://emea-chain.proxy.att.com:8080
+
